@@ -1,7 +1,13 @@
 public class classA {
 	int A1;
 	float A2;
-	
+	string A3;
+	public string getA1() {
+		return A3;
+	}
+	public void setA1(string a3) {
+		A3 = a3;
+	}
 	public int getA1() {
 		return A1;
 	}
@@ -14,4 +20,4 @@ public class classA {
 	public void setA2(float a2) {
 		A2 = a2;
 	}
-} 
+}
